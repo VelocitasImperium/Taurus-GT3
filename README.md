@@ -1,9 +1,8 @@
 <div align="center">
 <img src="images/Taurus GT3_1000p_1x.png" height=300px>
 
-With TaurusGT3 we mean the files you can find on this [Printables](https://www.printables.com/model/435921-taurus-gt3-huracanaudi-r8-gt3-replica)
-files that can be found on cults, thingiverse or around the web may be on older version of the wheel and may be not up to date.
+This is the page dedicated to our taurus gt3 steering wheel, you can find all the 3d files on this [Printables](https://www.printables.com/model/435921-taurus-gt3-huracanaudi-r8-gt3-replica), the wiki is still under construction
+
 </div>
 
 
-Github and wiki still WIP
