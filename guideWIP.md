@@ -8,28 +8,25 @@
 
 **Files are intended only for personal use, not commercial or for resale**
 
-* 1 - [Introduction](#1-introduction)
 
-1. **Introduction**
-2. **Safety notes**
-3. **BOM and Ordering Parts**
-4. **Preparing 3D Printed Parts**
-5. **PCB Assembly first steps**
-6. **Clutch/Shifter Guide links**
-7. **Flashing and Programming the PCB**
-8. **Assembly**
-9. **Troubleshooting**
-10. **Extras - Clutch/Customization**
+* 1 - [Introduction](#1-introduction)
+* 2 - [Safety notes](#2-safety-notes)
+* 3 - [BOM and parts](#3-bom-and-parts)
+* 4 - [Preparing 3D Printed parts](#4-preparing-3d-printed-parts)
+* 5 - [PCB Assembly steps](#5-pcb-assembly-steps)
+* 6 - [Clutch/Shifter links](#6-clutchshifter-links)
+* 7 - [Flashing and programming the PCB(Deprecated)](#7-flashing-and-programming-the-pcb-deprecated-will-be-updated-asap)
+* 8 - [Assembly](#8-assembly)
+* 9 - [Troubleshooting](#9-troubleshooting)
+* 10 - [Extras](#10-extras)
+
 
 
 ## 1. Introduction
-1.
-#### Introduction
 
 We hope you find the order and assembly process smooth, and a reminder that we are always available to help through the discord. Simply post your questions in the #diy-and-simgear channel and one of our staff (or helpful members) will try to assist. This guide covers all the necessary information to assemble your wheel, as well as links to the required shifters and clutches. Without further ado, let's begin.
 
-1.
-#### Safety notes
+## 2. Safety notes
 
 #### With any DIY project we must ensure we are safe at all times to avoid any potential injury or damage. Our recommendations are the following:
 
@@ -38,8 +35,7 @@ We hope you find the order and assembly process smooth, and a reminder that we a
 3. Wear gloves to avoid later contamination when soldering with leaded solder.
 4. Find a comfortable position to avoid back pain later on, this wheel takes quite a while to assemble and it is better to do it comfortably.
 
-1.
-#### BOM and Ordering Parts
+## 3. Bom and parts
 
 The BOM is available [**here**](https://docs.google.com/spreadsheets/d/1FHKVDJvTqiSSPm0fXGAgw0jcgytXlTn-GmOWtaGsIfA/edit?usp=sharing)and you can make your own copy to tick off parts as you go.
 
@@ -55,13 +51,6 @@ _ **Sticker Sheet.PDF** _ _dimensions :225.361 X 116.916 mm_
 
 _ **Taurus V2 GT3 Skin.SVG** _ _dimensions : 192.091 x 140.949 mm_
 
-**NEW IMAGES**
-
-**NEW IMAGES**
-
-**NEW IMAGES**
-
-**NEW IMAGES**
 
 _ **\*\*\*Encoder Circles** _
 
@@ -97,7 +86,8 @@ Specify the following:
 
 As mentioned earlier we use Michelle from SZGDCTech ([michelle@szgdctech.com](mailto:michelle@szgdctech.com)) for our parts and have found her reliable and good quality.
 
-## PCB Order
+
+## 3.4 PCB Order
 
 For the PCB I suggest you use JLCPCB and follow these instructions (if you don't understand a step you can ask for help in our Discord).
 
@@ -131,20 +121,52 @@ and you're done, you can finish the order.
 
 **NOTE** :It should cost around 110e for two pieces(shipping included), if you get a much lower price check if you have done everything correctly.
 
-1.
-#### Preparing 3D Printed Parts
+
+## 4. Preparing 3D Printed parts
 
 The following settings are intended for use with a 0.4mm nozzle and wall line count (perimeters) of 4
+<table>
+  <tr>
+    <th>File Name</th>
+    <th>Layer Height</th>
+    <th>Infill</th>
+    <th>Supports</th>
+    <th>Est. print time</th>
+    <th>Extra notes</th>
 
-| File name | Layer height | Infill | Support | Est. print time | Extra notes |
-| --- | --- | --- | --- | --- | --- |
-| Backshell | 0,2 | 60% | Yes | 15H |
- |
-| Shifter Mainbody | 0,16 | 60% | Yes | 1,30H |
- |
-| Shifter Lever | 0,20 | 60% | Yes | 30m | Print on the larger side |
-| Grips | 0,20/0,24 | 60/30
-**# 1** % | Yes | 5,30H Front 4,30H Rear3,30+2,30H Bottom | Print closer to the plate to prevent warping |
+  </tr>
+  <tr>
+    <td>Backshell</td>
+    <td>0,2</td>
+    <td>60%</td>
+    <td>Yes</td>
+    <td>15H</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Shifter Mainbody</td>
+    <td>0,16</td>
+    <td>60%</td>
+    <td>Yes</td>
+    <td>1,30H</td>
+    <td> </td>
+  </tr><tr>
+    <td>Shifter Lever</td>
+    <td>0,20</td>
+    <td>60%</td>
+    <td>Yes</td>
+    <td>30m</td>
+    <td>Print on the larger side </td>
+  </tr><tr>
+    <td>Grips</td>
+    <td>0,20/0,24</td>
+    <td>60%</td>
+    <td>Yes</td>
+    <td>5,30H Front <br> 4,30H Rear <br> 3,30H + 2,30H Bottom</td>
+    <td> Print closer to the plate <br> to prevent warping </td>
+  </tr>
+</table>
+
 
 ![](RackMultipart20230721-1-xflpll_html_672efaa9bf2f56cc.png)
 
@@ -158,8 +180,7 @@ For a better finish, sanding and painting are suggested, the necessary steps are
 
 **NOTE**** :** Be careful with power tools on plastic, due to risk of melting.
 
-1.
-#### PCB Assembly Steps
+## 5. PCB Assembly steps
 
 ## PCB Soldering
 
@@ -205,8 +226,7 @@ Strip off 1cm of the black insulation and 4 to 5mm of the internal wires, then s
 
 Solder a 2-pin cable to each, cable orientation is not important, the use of heat shrink tubing is also recommended, otherwise a dab of glue between the contacts will do.
 
-1.
-#### Clutch/Shifter Links
+## 6. Clutch/Shifter Links
 
 ![](RackMultipart20230721-1-xflpll_html_ca284bb25806b513.png)
 
@@ -216,14 +236,12 @@ You should already have all the parts for these as they are specified in the BOM
 
 ## [Shifter Link](https://www.printables.com/model/372871-magnetic-shifter) & [Clutch Link](https://www.printables.com/model/372151-magnetic-clutch) ![](RackMultipart20230721-1-xflpll_html_97f24a0372db1a77.png)
 
-1.
-#### Flashing and Programming the PCB
+## 7. Flashing and Programming the PCB (deprecated, will be updated ASAP)
 
 Before finalizing the assembly we want to make sure the buttons work, so we will start by explaining the process for flashing the bootloader. Unlike some other projects, the Arduino board we had you order in the BOM is simply there to flash the chip on the PCB itself and will be removed later. Before starting these steps it is recommended you remove any other arduino devices you may have plugged into your PC and close any programs that may be using/interfering such as SimHub.
 
 ## Flashing bootloader - ArduinoIDE
 
-For the sake of simplicity, I'll color code in green when I'm talking about your programmer, aka the Arduino board (like pro micro or nano), and in yellow when I'm talking about the Taurus PCB.
 
 Flashing the bootloader is mandatory as they come without one, unlike the regular boards you can buy online.
 
@@ -287,8 +305,7 @@ Now that the programming is complete the buttons should work. We can test these 
 
 when comfortable.
 
-1.
-#### Assembly
+## 8. Assembly
 
 | **Items Needed:**
  3D Printed Parts (Enclosure)6X M3 Heat Inserts12x M4 Heat InsertsM4x8 & 16 Socket screws8x M4x10 Countersunk Screws4x M4x18 Brass Standoff 10x M3x10 Countersunk Screws4x M3x10 Button Screws4x M3 Spring Washers4x M3 WashersM3 & M4 Grub Screws for the Knobs |
@@ -342,13 +359,11 @@ Finally fix the grips with the socket screws ( **Socket M4x8 and M4x16** ) (if y
 
 ![](RackMultipart20230721-1-xflpll_html_d00674c4c82a2268.png) ![](RackMultipart20230721-1-xflpll_html_bcecb0e42d9c289.png)
 
-1.
-#### Troubleshooting
+## 9. Troubleshooting
 
 ### As we haven't (yet) had anyone complain or ask for specific help with this build, this section is empty and will be used for future help.
 
-1.
-#### Extras
+## 10. Extras
 
 ## Clutch Calibration
 
