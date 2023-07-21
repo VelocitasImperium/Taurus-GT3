@@ -1,8 +1,6 @@
 # **TAURUS GT3**
 
-![](RackMultipart20230721-1-xflpll_html_252114c19b5183ea.png)
-
-![Shape1](RackMultipart20230721-1-xflpll_html_3250f920c94fe518.gif)
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/TaurusGt3-GuideFront.png" width="600">
 
 **Copyright by VELOCITAS IMPERIUM - All rights reserved**
 
@@ -43,7 +41,7 @@ It's a good idea to order everything before starting so that you don't miss anyt
 
 We will now cover some specifics for ordering certain items, such as the **Graphics/Adhesives, Alcantara wrap, Carbon Fiber CNC,** and the **PCB**.
 
-## Graphics/Adhesives
+## 3.1 Graphics/Adhesives
 
 The front plate graphics can be made through different methods, depending on your tools, we found the best result is achieved with a combination of adhesive yellow vinyl and printed texts and stickers, cutted with a plotter. You will need to provide the sticker sheet and skin file (found in the Taurus Drive you have access to) to your selected sticker manufacturer and also let them know the dimensions listed below. If you are struggling to find someone to print these for you please message us on discord and we can refer you to a particular seller. Alternatively you can order these through Etsy from us.
 
@@ -56,7 +54,7 @@ _ **\*\*\*Encoder Circles** _
 
 _There is an alternative option for the_ _ **Encoder Circles** _ _if you'd prefer a more premium feel and also have less difficulty removing them later, which is having them UV printed on plexiglass. Note that this is just for the encoder circles, and the other smaller stickers and skin still need to be printed with the plotter.Double sided tape is used to adhere them to the wheel. A good supplier for these is_ [_michelle@szgdctech.com_](mailto:michelle@szgdctech.com) _(We also recommend to use Michelle for the Carbon Fibre CNC items, so you may be able to bundle shipping through her)_
 
-## Alcantara Wrap
+## 3.2 Alcantara Wrap
 
 Self-adhesive Alcantara Wrap for the grips is the best option here. Try to avoid getting a cheap material (it will look like cardboard just from looking at the listing photos) as it will be difficult with the small details on the grips. We have had success in the past with "Carbins" brand wrap. **info@carbins.net** can give you more information about buying. They sell by the metre, so the minimum order is 1\*1.42m, which is more than enough to make the grips for this project and have plenty left over for other projects 😌
 
@@ -66,7 +64,7 @@ Self-adhesive Alcantara Wrap for the grips is the best option here. Try to avoid
 
 ### Bottom 2 halves: 18x9cm / 7x3.5 in
 
-## Carbon Fiber/CNC
+## 3.3 Carbon Fiber/CNC
 
 You do not necessarily need to order carbon fiber as all the parts \*can\* be 3D printed, however for wheel bases with 5nm or higher torque we really recommend going down the carbon fiber route as it will be significantly more durable and premium feeling. This will also minimize any flex in the wheel.
 
@@ -170,7 +168,7 @@ The following settings are intended for use with a 0.4mm nozzle and wall line co
 
 ![](RackMultipart20230721-1-xflpll_html_672efaa9bf2f56cc.png)
 
-## Postprocessing
+## 4.1 Postprocessing
 
 For a better finish, sanding and painting are suggested, the necessary steps are as follows:
 
@@ -182,7 +180,7 @@ For a better finish, sanding and painting are suggested, the necessary steps are
 
 ## 5. PCB Assembly steps
 
-## PCB Soldering
+## 5.1 PCB soldering
 
 Solder the encoders and Alps 7-way switches to the front where the smd components are and the connectors to the other side, and solder the 2x3 pin header on the pcb, it will be needed to flash the PCB then you can desolder it.
 
@@ -200,11 +198,28 @@ Solder the encoders and Alps 7-way switches to the front where the smd component
 
 TIP: Clean the board after finishing as some types of flux or solder with flux may be corrosive.
 
-## 12mm Connector
+## 5.2 12mm connector
 
-| **Items Needed:**
- Coiled USB cable12mm connector male/femaleHeatshrink (optional) |
-| --- |
+In this part we will need this parts:
+
+<table>
+  <tr>
+    <th>Items needed:</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>Coiled USB cable</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>12mm connector male/female</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Heatshrink</td>
+    <td>Optional</td>
+  </tr>
+</table>
 
 In this section we're going to suggest that you use our connector pinout, we prefer to have the data lines in the furthest position from each other, also following this pinout will ensure compatibility with our past and future steering wheels.
 
@@ -222,7 +237,7 @@ Strip off 1cm of the black insulation and 4 to 5mm of the internal wires, then s
 
 **Note** : If the cable has different colors, you'll have to use a tester to make sure to respect the usb pinout
 
-## 12mm Buttons
+## 5.3 12mm Buttons
 
 Solder a 2-pin cable to each, cable orientation is not important, the use of heat shrink tubing is also recommended, otherwise a dab of glue between the contacts will do.
 
@@ -240,7 +255,7 @@ You should already have all the parts for these as they are specified in the BOM
 
 Before finalizing the assembly we want to make sure the buttons work, so we will start by explaining the process for flashing the bootloader. Unlike some other projects, the Arduino board we had you order in the BOM is simply there to flash the chip on the PCB itself and will be removed later. Before starting these steps it is recommended you remove any other arduino devices you may have plugged into your PC and close any programs that may be using/interfering such as SimHub.
 
-## Flashing bootloader - ArduinoIDE
+## 7.1 Flashing bootloader - Arduino IDE
 
 
 Flashing the bootloader is mandatory as they come without one, unlike the regular boards you can buy online.
@@ -287,7 +302,7 @@ Now you can proceed without the Arduino Board and plug your Taurus PCB directly 
 
 **NOTE** : If it gives an error, check your connection and that the IDE configuration is correct.
 
-## Programming (SimHub)
+## 7.2 Programming (Simhub) (deprecated)
 
 In this section I'll cover the option of using our code, and in the last section there are the instructions if you want to do it yourself or make some modifications.
 
@@ -307,17 +322,63 @@ when comfortable.
 
 ## 8. Assembly
 
-| **Items Needed:**
- 3D Printed Parts (Enclosure)6X M3 Heat Inserts12x M4 Heat InsertsM4x8 & 16 Socket screws8x M4x10 Countersunk Screws4x M4x18 Brass Standoff 10x M3x10 Countersunk Screws4x M3x10 Button Screws4x M3 Spring Washers4x M3 WashersM3 & M4 Grub Screws for the Knobs |
-| --- |
 
-## Rear Shell
+In this part we will need this parts:
+
+<table>
+  <tr>
+    <th>Items needed:</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>3D printed parts(enclosure)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>M3 Heat insert</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>M4 Heat insert</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>M4x8 Socket screws</td>
+    <td>??</td>
+  </tr>
+  <tr>
+    <td>M4x10 Countersunk screws</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>M4x18 Brass standoff</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>M3x10 Countersunk screws</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>M3x10 Button screws</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>M3 Spring washers</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>M3 Washers</td>
+    <td>4</td>
+  </tr>
+</table>
+
+## 8.1 Rear shell
 
 ![](RackMultipart20230721-1-xflpll_html_6489866d25b0b73e.png)
 
 Insert the M3 heat inserts from the top, taking utmost care that they are flush with the surface.
 
-## Grips ![](RackMultipart20230721-1-xflpll_html_c80542fb6d332019.png)
+## 8.2 Grips
 
 Do the same with the grips, as shown in the photo (It has to be done on all three front pieces)
 
@@ -327,7 +388,7 @@ Once you've finished the grips, I recommend assembling them without the front pl
 
 TIP: Fit the rear screws now, before you cover the grips with Alcantara. The hole you need to cut to use the Allen wrench will be smaller and less noticeable.
 
-## Front plate
+## 8.3 Front plate
 
 ![](RackMultipart20230721-1-xflpll_html_e777e89c59fa90a.png)
 
@@ -349,7 +410,7 @@ Then join the back plate to the enclosure with **M3x10 countersunk** screws and 
 
 Be careful not to pinch the clutch cables
 
-## Final touches
+##8.4 Final touches
 
 Once this is done, we can connect the shifter, clutch and GX12 connector cables to the PCB, then use **M4x10 countersunk** screws to join both parts together. If you are crimping your own cables for the shifters/clutches, 15cm should be sufficient without causing too many issues with excess cable.
 
