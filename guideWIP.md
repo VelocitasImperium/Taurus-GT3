@@ -342,11 +342,8 @@ Now you can proceed without the Arduino Board and plug your Taurus PCB directly 
 
 ## 7.2 Programming (Simhub) (deprecated)
 
-You can choise to use the already proven and the best(IMO) code out of here for Arduino HID boards with the [**DDC code**](https://github.com/andreasdahl1987/DahlDesignDDC)
+You can choose to use the already proven (strongly recommended) [**DDC code**] (https://github.com/andreasdahl1987/DahlDesignDDC) by Andreas Dahl.
 In this section I'll cover the option of using our code, and in the last section there are the instructions if you want to do it yourself or make some modifications.
-
-
-
 
 To program the Arduino you will need to upload the provided hex(Taurus V2.hex). I use Simhub because it's based on the AVRDUDE software and comes with a simple GUI, but you can use whatever you like.
 
