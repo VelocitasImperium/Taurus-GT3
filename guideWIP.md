@@ -35,7 +35,7 @@ We hope you find the order and assembly process smooth, and a reminder that we a
 
 ## 3. Bom and parts
 
-The BOM is available [**here**](https://docs.google.com/spreadsheets/d/1FHKVDJvTqiSSPm0fXGAgw0jcgytXlTn-GmOWtaGsIfA/edit?usp=sharing)and you can make your own copy to tick off parts as you go.
+The BOM is available [**here**](https://docs.google.com/spreadsheets/d/1FHKVDJvTqiSSPm0fXGAgw0jcgytXlTn-GmOWtaGsIfA/edit?usp=sharing) and you can make your own copy to tick off parts as you go.
 
 It's a good idea to order everything before starting so that you don't miss anything or end up with incorrect parts. The BOM also contains some useful tips on what parts to order and recommendations, _as well as some recommended tools for the job!_ We have intentionally left some flexibility with the parts (eg: switches from either AliExpress or Mouser) so you can make the decision on how much you'd like to spend. In general, the extra money does reflect extra quality but if you think you can get a great deal somewhere else, go for it! That's the benefit of DIY 🙂 \*Velocitas Imperium are not endorsing any of these parts, just making helpful suggestions if you are struggling to source the parts yourself\*
 
@@ -255,7 +255,7 @@ In this section we're going to suggest that you use our connector pinout, we pre
 
 ### **NOTE:** You can use your own pinout, just make sure that the USB standard is respected at the end of the USB A connector (you can check this by checking the continuity from the USB A male connector to the one on the PCB). 
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideUSB1.png" width="600">
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideUSB1.png" width="300">
 
 <hr>
 
@@ -296,7 +296,7 @@ Before finalizing the assembly we want to make sure the buttons work, so we will
 
 Flashing the bootloader is mandatory as they come without one, unlike the regular boards you can buy online.
 
-You will need another Arduino for this process (or you can use whatever tools you like, but they are not covered in this guide, I use another Arduino as it's pretty common to have a spare), atmega328p(nano) or 32u4(micro) based boards are the same, you can follow the official guide on the Arduino website or you can read on below, but this is just a summary of the Arduino guide.
+You will need another Arduino for this process (or you can use whatever tools you like, but they are not covered in this guide, I use another Arduino as it's pretty common to have a spare), atmega328p(nano) or 32u4(micro) based boards are the same, you can follow the official guide on the [**Arduino website**](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) or you can read on below, but this is just a summary of the Arduino guide.
 
 You can start by uploading the ISP sketch to your Arduino board as shown in the picture:
 
@@ -342,7 +342,11 @@ Now you can proceed without the Arduino Board and plug your Taurus PCB directly 
 
 ## 7.2 Programming (Simhub) (deprecated)
 
+You can choise to use the already proven and the best(IMO) code out of here for Arduino HID boards with the [**DDC code**](https://github.com/andreasdahl1987/DahlDesignDDC)
 In this section I'll cover the option of using our code, and in the last section there are the instructions if you want to do it yourself or make some modifications.
+
+
+
 
 To program the Arduino you will need to upload the provided hex(Taurus V2.hex). I use Simhub because it's based on the AVRDUDE software and comes with a simple GUI, but you can use whatever you like.
 
@@ -467,12 +471,6 @@ Finally fix the grips with the socket screws ( **Socket M4x8 and M4x16** ) (if y
 ### As we haven't (yet) had anyone complain or ask for specific help with this build, this section is empty and will be used for future help.
 
 ## 10. Extras
-
-## Clutch Calibration
-
-If you happen to use the clutches on your Taurus you will need to calibrate them to your PCB, we have a special guide [**HERE**](https://docs.google.com/document/d/13853OO-jeRLrVNvK7JNsyt2_sdO_zaZc0swEklrDoDA/edit#).
-
-If you bought a PCB with a pair of clutches from us, they will come calibrated.
 
 ## CUSTOMIZATION
 
