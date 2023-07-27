@@ -91,11 +91,11 @@ For the PCB I suggest you use JLCPCB and follow these instructions (if you don't
 
 Upload the gerber file to their website and leave everything default but the stackup has to be the **JLC7628** for the best result.
 
-![](RackMultipart20230721-1-xflpll_html_48074bdfb0805b28.png)
+![](https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb1.png)
 
 Enable PCB assembly and leave the default options.
 
-![](RackMultipart20230721-1-xflpll_html_e6895b068a961af3.png)
+![](https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb2.png)
 
 Press **Confirm** to move to the next page.
 
@@ -103,13 +103,13 @@ Press **Confirm** to move to the next page.
 
 Upload both the BOM and CPL as shown in the photo to this new page.
 
-![](RackMultipart20230721-1-xflpll_html_c687f1260bd3466d.png)
+![](https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb3.png)
 
 After hitting process BOM & CPL you will get into the list of all the components needed for the build, it is all pre-configured by us, so you will need to hit **NEXT**.
 
 Once you have confirmed the parts you will have to select the Product description:
 
-![](RackMultipart20230721-1-xflpll_html_97a1a2fff3d83e45.png)
+![](https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcb4.png)
 
 and you're done, you can finish the order.
 
@@ -166,8 +166,6 @@ The following settings are intended for use with a 0.4mm nozzle and wall line co
 </table>
 
 
-![](RackMultipart20230721-1-xflpll_html_672efaa9bf2f56cc.png)
-
 ## 4.1 Postprocessing
 
 For a better finish, sanding and painting are suggested, the necessary steps are as follows:
@@ -179,20 +177,50 @@ For a better finish, sanding and painting are suggested, the necessary steps are
 **NOTE**** :** Be careful with power tools on plastic, due to risk of melting.
 
 ## 5. PCB Assembly steps
+In this part of the guide you will need this items:
+
+<table>
+  <tr>
+    <th>Items needed:</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>PCB</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Alps 7-way switch</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Rotary Encoder</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>2-Pin Female 90-Deg Connector</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>2 Pin female connector</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3 Pin female connector</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>4 Pin female connector</td>
+    <td>1</td>
+  </tr>
+</table>
 
 ## 5.1 PCB soldering
 
 Solder the encoders and Alps 7-way switches to the front where the smd components are and the connectors to the other side, and solder the 2x3 pin header on the pcb, it will be needed to flash the PCB then you can desolder it.
 
-| **Items Needed:**
- PCB 3x Rotary Encoders
- 2x Alps 7-way switch 8x 2-pin female 90-Deg Connector 2x 2-pin female Connector 2x 3-pin female Connector
- |
-| --- |
+![](https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcbSoldering1.png)
 
-![](RackMultipart20230721-1-xflpll_html_2961241a6106ae4b.png)
-
-![](RackMultipart20230721-1-xflpll_html_74eb0886b02cfaaa.png)
+![](https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guidePcbSoldering2.png)
 
 **NOTE:** The PCB may be slightly different, so refer to what is written on the PCB.
 
