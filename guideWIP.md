@@ -122,7 +122,7 @@ and you're done, you can finish the order.
 
 ## 4. Preparing 3D Printed parts
 
-The following settings are intended for use with a 0.4mm nozzle and wall line count (perimeters) of 4
+The following settings are intended for use with a 0.4mm nozzle and wall line count (perimeters) of 4 (printing times with and ender 3)
 <table>
   <tr>
     <th>File Name</th>
@@ -168,7 +168,7 @@ The following settings are intended for use with a 0.4mm nozzle and wall line co
 
 ## 4.1 Postprocessing
 
-For a better finish, sanding and painting are suggested, the necessary steps are as follows:
+For a better finish, sanding and painting are suggested, the necessary steps are as follows(for grips only sanding is suggested):
 
 1. Spray filler primer
 2. Dry sanding from 200 up to 600 grit
@@ -190,7 +190,7 @@ In this part of the guide you will need this items:
   </tr>
   <tr>
     <td>Alps 7-way switch</td>
-    <td>1</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>Rotary Encoder</td>
@@ -209,7 +209,7 @@ In this part of the guide you will need this items:
     <td>2</td>
   </tr>
   <tr>
-    <td>4 Pin female connector</td>
+    <td>4 Pin female 90-Deg connector</td>
     <td>1</td>
   </tr>
 </table>
@@ -287,6 +287,8 @@ You should already have all the parts for these as they are specified in the BOM
 
 ## [Shifter Link](https://www.printables.com/model/372871-magnetic-shifter) & [Clutch Link](https://www.printables.com/model/372151-magnetic-clutch) ![](RackMultipart20230721-1-xflpll_html_97f24a0372db1a77.png)
 
+**Note**: Check that the pin/solder doesn't go beyond the shape of the shifter, as this could cause a short on the backplate (carbon is conductive) and give a false reading between the encoder and the shifter.
+
 ## 7. Flashing and Programming the PCB (deprecated, will be updated ASAP)
 
 Before finalizing the assembly we want to make sure the buttons work, so we will start by explaining the process for flashing the bootloader. Unlike some other projects, the Arduino board we had you order in the BOM is simply there to flash the chip on the PCB itself and will be removed later. Before starting these steps it is recommended you remove any other arduino devices you may have plugged into your PC and close any programs that may be using/interfering such as SimHub.
@@ -320,6 +322,11 @@ Here is an example if you're using a Pro micro as programmer
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash4.png" width="600">
 
+Here is another example if you're using an Arduino nano as programmer
+
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash4.png" width="600">
+
+
 Once you have completed the wiring you can plug the Arduino board into your PC, if you have done everything correctly you will notice that the PWR LED on the Taurus PCB is ON, now you can burn the bootloader:
 
 Select the **Arduino Micro** on the "Board:" section.
@@ -334,7 +341,7 @@ The image below shows an example of a configuration using an Arduino nano.
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash5.png" width="600">
 
-It will take about 2 minutes, you can see the RX TX LED flashing during this process, don't disconnect until the Arduino IDE says it's done.
+It will take about 2 minutes, you can see the RX TX LED(on the programmer) flashing during this process, don't disconnect until the Arduino IDE says it's done.
 
 Now you can proceed without the Arduino Board and plug your Taurus PCB directly to the USB.
 
@@ -355,9 +362,9 @@ Then you can press " **ADVANCED**" and select "Upload hex file to arduino", sele
 
 It will tell you that your upload was successful, otherwise check the error, close anything that might be interfering with the COM port (like the Arduino IDE) and try again.
 
-Now that the programming is complete the buttons should work. We can test these by opening "Game Controllers" from the control panel in windows and selecting "Properties" on the Taurus. On the "Test" tab we can press each of the buttons which should trigger the light to turn red momentarily. Feel free to test all the buttons/features and move to the next step
+Now that the programming is complete the buttons should work. We can test these by opening "Game Controllers" from the control panel in windows and selecting "Properties" on the Taurus. On the "Test" tab we can press each of the buttons which should trigger the light to turn red momentarily. Feel free to test all the buttons/features and move to the next step when comfortable.
 
-when comfortable.
+**NOTE: The Windows Game Controller only reads the first 32 inputs of the board, so don't worry if some of the buttons don't show up, you'll need another piece of software to read all the rest.
 
 ## 8. Assembly
 
@@ -383,7 +390,11 @@ In this part we will need this parts:
   </tr>
   <tr>
     <td>M4x8 Socket screws</td>
-    <td>??</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>M4x16 Socket screws</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>M4x10 Countersunk screws</td>
@@ -426,6 +437,8 @@ Do the same with the grips, as shown in the photo (It has to be done on all thre
 
 They are all M4 and are pretty short, so be sure you get the right ones, you can find the required ones in the BOM.
 
+**NOTE: Be very careful when inserting the heat inserts as the process is messy, first clean the holes well and line up the inserts correctly, then clean the threads and make sure it's perfectly straight using the front plate hole, otherwise it will never fit.
+
 Once you've finished the grips, I recommend assembling them without the front plate to avoid accidental damage, as it's worth sanding them as smooth as possible with 80-120 grit sandpaper.
 
 TIP: Fit the rear screws now, before you cover the grips with Alcantara. The hole you need to cut to use the Allen wrench will be smaller and less noticeable.
@@ -465,7 +478,7 @@ Finally fix the grips with the socket screws ( **Socket M4x8 and M4x16** ) (if y
 
 ## 9. Troubleshooting
 
-### As we haven't (yet) had anyone complain or ask for specific help with this build, this section is empty and will be used for future help.
+One problem we had with one of the builds was that the shifters were shorting out to the rear plate, creating ghost contacts on the PCB. Insulate the pins or cut them shorter.
 
 ## 10. Extras
 
