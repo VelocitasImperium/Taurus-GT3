@@ -289,7 +289,7 @@ You should already have all the parts for these as they are specified in the BOM
 
 **Note**: Check that the pin/solder doesn't go beyond the shape of the shifter, as this could cause a short on the backplate (carbon is conductive) and give a false reading between the encoder and the shifter.
 
-## 7. Flashing and Programming the PCB (deprecated, will be updated ASAP)
+## 7. Flashing and Programming the PCB
 
 Before finalizing the assembly we want to make sure the buttons work, so we will start by explaining the process for flashing the bootloader. Unlike some other projects, the Arduino board we had you order in the BOM is simply there to flash the chip on the PCB itself and will be removed later. Before starting these steps it is recommended you remove any other arduino devices you may have plugged into your PC and close any programs that may be using/interfering such as SimHub.
 
@@ -347,7 +347,7 @@ Now you can proceed without the Arduino Board and plug your Taurus PCB directly 
 
 **NOTE** : If it gives an error, check your connection and that the IDE configuration is correct.
 
-## 7.2 Programming (Simhub) (deprecated)
+## 7.2 Programming (Simhub)
 
 You can choose to use the already proven (strongly recommended) [**DDC code**] (https://github.com/andreasdahl1987/DahlDesignDDC) by Andreas Dahl.
 In this section I'll cover the option of using our code, and in the last section there are the instructions if you want to do it yourself or make some modifications.
@@ -366,8 +366,14 @@ Now that the programming is complete the buttons should work. We can test these 
 
 **NOTE: The Windows Game Controller only reads the first 32 inputs of the board, so don't worry if some of the buttons don't show up, you'll need another piece of software to read all the rest.
 
-## 8. Assembly
+## 7.2.1 Programming (Arduino IDE)
 
+Here is the other way of flashing the board, the classic way with the Arduino IDE, which we strongly recommend using [**DDC code**] (https://github.com/andreasdahl1987/DahlDesignDDC).
+After setting up the matrix and switches in the sketch, you can upload the code with this configuration:
+
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash8.png" width="600">
+
+## 8. Assembly
 
 In this part we will need this parts:
 
