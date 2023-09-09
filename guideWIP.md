@@ -13,7 +13,7 @@
 * 4 - [Preparing 3D Printed parts](#4-preparing-3d-printed-parts)
 * 5 - [PCB Assembly steps](#5-pcb-assembly-steps)
 * 6 - [Clutch/Shifter links](#6-clutchshifter-links)
-* 7 - [Flashing and programming the PCB](#7-flashing-and-programming)
+* 7 - [Flashing and Programming the PCB](#7-flashing-and-programming-the-PCB)
 * 8 - [Assembly](#8-assembly)
 * 9 - [Troubleshooting](#9-troubleshooting)
 * 10 - [Extras](#10-extras)
