@@ -324,7 +324,7 @@ Here is an example if you're using a Pro micro as programmer
 
 Here is another example if you're using an Arduino nano as programmer
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash4.png" width="600">
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash7.png" width="600">
 
 
 Once you have completed the wiring you can plug the Arduino board into your PC, if you have done everything correctly you will notice that the PWR LED on the Taurus PCB is ON, now you can burn the bootloader:
