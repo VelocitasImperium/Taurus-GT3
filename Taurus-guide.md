@@ -122,7 +122,7 @@ and you're done, you can finish the order.
 
 ## 4. Preparing 3D Printed parts
 
-The following settings are intended for use with a 0.4mm nozzle and wall line count (perimeters) of 4 (printing times with and ender 3)
+The following settings are intended for use with a 0.4mm nozzle and wall line count (perimeters) of 4 (printing times with an ender 3)
 <table>
   <tr>
     <th>File Name</th>
