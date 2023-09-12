@@ -174,7 +174,7 @@ For a better finish, sanding and painting are suggested, the necessary steps are
 2. Dry sanding from 200 up to 600 grit
 3. Wet sanding from 800 to 1000 grit
 
-**NOTE**** :** Be careful with power tools on plastic, due to risk of melting.
+**NOTE**: Be careful with power tools on plastic, due to risk of melting.
 
 ## 5. PCB Assembly steps
 In this part of the guide you will need this items:
@@ -333,13 +333,13 @@ Select the **Arduino Micro** on the "Board:" section.
 
 Now you have two options depending on your Arduino (Programmer Board)
 
-Select the **Arduino as ISP(Atmega32u4)** option on the "Programmer:" section if you have an arduino board based on that MCU (_Such as the_ _ **Micro/Pro Micro** _)
+Select the **Arduino as ISP(Atmega32u4)** option on the "Programmer:" section if you have an arduino board based on that MCU (Such as the **Micro/Pro Micro**)
 
-Select the **Arduino as ISP** option on the "Programmer:" section for the other boards based on the Atmega328p(_such as_ _ **Arduino nano** _)
+Select the **Arduino as ISP** option on the "Programmer:" section for the other boards based on the Atmega328p(such as **Arduino nano** )
 
 The image below shows an example of a configuration using an Arduino nano.
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash5.png" width="600">
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash.png" width="600">
 
 It will take about 2 minutes, you can see the RX TX LED(on the programmer) flashing during this process, don't disconnect until the Arduino IDE says it's done.
 
@@ -368,7 +368,8 @@ Now that the programming is complete the buttons should work. We can test these 
 
 ## 7.2.1 Programming (Arduino IDE)
 
-Here is the other way of flashing the board, the classic way with the Arduino IDE, which we strongly recommend using [**DDC code**] (https://github.com/andreasdahl1987/DahlDesignDDC).
+Here is the other way of flashing the board, the classic way with the Arduino IDE, which we strongly recommend using 
+[**DDC code**](https://github.com/andreasdahl1987/DahlDesignDDC).
 After setting up the matrix and switches in the sketch, you can upload the code with this configuration:
 
 <img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash8.png" width="600">
@@ -443,7 +444,7 @@ Do the same with the grips, as shown in the photo (It has to be done on all thre
 
 They are all M4 and are pretty short, so be sure you get the right ones, you can find the required ones in the BOM.
 
-**NOTE: Be very careful when inserting the heat inserts as the process is messy, first clean the holes well and line up the inserts correctly, then clean the threads and make sure it's perfectly straight using the front plate hole, otherwise it will never fit.
+**NOTE**: Be very careful when inserting the heat inserts as the process is messy, first clean the holes well and line up the inserts correctly, then clean the threads and make sure it's perfectly straight using the front plate hole, otherwise it will never fit.
 
 Once you've finished the grips, I recommend assembling them without the front plate to avoid accidental damage, as it's worth sanding them as smooth as possible with 80-120 grit sandpaper.
 
